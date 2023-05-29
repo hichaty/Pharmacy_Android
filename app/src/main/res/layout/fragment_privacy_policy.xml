@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PrivacyPolicyFragment">
+
+    <include layout="@layout/custom_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="@dimen/_3sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_below="@+id/toolbar"
+        android:text="This Privacy Policy (“Privacy Policy”) describes what information Enjoee Drug (“Company”), as the operator of the Platform and Tarun Satpathy as owner of the Platform, may collect from a user (“You”, “Your” or “User”), on or through Our website (https://enjoeedrug.com/) (the “Site”) or one or more mobile application (the “App”), directly (the owner and the operator of the Platform are referred collectively as “We”/ “Us”/ ”Our”) or in relation to services otherwise rendered by Us (collectively “Platform”), including Our facilitation through the Platform, of purchase of pharmaceutical drugs from Retail Pharmacies, consultation with registered medical practitioners or facilitation of consultation with registered medical practitioners by third-parties (“Medical Practitioners”) and the facilitation of services by third parties which may include delivery of pharmaceutical, nutraceutical, over the counter products and such other products as ordered by You through the App, (each a “Service”, and collectively the “Services”) and how We use, process, disclose and try to protect such information."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+</RelativeLayout>

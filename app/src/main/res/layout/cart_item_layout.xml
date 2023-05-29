@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_6sdp"
+        android:background="@color/blue"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/iv_cross"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_baseline_close_24" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_product_img"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_3sdp"
+                app:cardElevation="@dimen/_1sdp">
+
+                <ImageView
+                    android:id="@+id/iv_product_image"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:src="@drawable/image_dummy" />
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/rl_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_toLeftOf="@id/iv_cross"
+                android:layout_toRightOf="@id/cv_product_img"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/tv_productName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text=""
+                    android:textColor="@color/grey_950"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/tv_text_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_productName"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Quantity : "
+                    android:textColor="@color/grey_950"
+                    android:textSize="@dimen/_11sdp" />
+
+                <ImageView
+                    android:id="@+id/iv_up"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_below="@id/tv_productName"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_toRightOf="@id/tv_text_quantity"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/up" />
+
+                <TextView
+                    android:id="@+id/tv_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_productName"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@id/iv_up"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="1"
+                    android:textColor="@color/grey_950"
+                    android:textSize="@dimen/_11sdp" />
+
+                <ImageView
+                    android:id="@+id/iv_down"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_below="@id/tv_productName"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_toRightOf="@id/tv_quantity"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/down" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_text_quantity"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Rs : 40.0"
+                    android:textColor="@color/grey_950"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/tv_offer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_text_quantity"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@id/view"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="20% Discount Applied"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/_11sdp" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_below="@id/tv_text_quantity"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@id/tv_price"
+                    android:background="@color/grey_950" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_upload_prescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_1"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/edit_text_border"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/upload_prescription"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_prescription"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@id/cv_product_img"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:visibility="gone"
+                android:src="@drawable/prescription_dummy_img" />
+
+            <TextView
+                android:id="@+id/tv_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cv_product_img"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_toRightOf="@id/iv_prescription"
+                android:background="@drawable/blue_box"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:paddingHorizontal="@dimen/_20sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:text="View"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

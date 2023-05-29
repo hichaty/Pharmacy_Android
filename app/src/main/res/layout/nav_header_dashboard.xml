@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:id="@+id/nav_header"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_7sdp"
+    android:paddingTop="@dimen/_15sdp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/tvPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prescription"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/_12sdp"
+        android:padding="@dimen/_7sdp"
+        />
+
+    <TextView
+        android:id="@+id/tvMedicine_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Reminder"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/blue_200"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_12sdp"
+        />
+    <TextView
+        android:id="@+id/tvMedicine_refill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Refill"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/blue_200"
+        android:padding="@dimen/_7sdp"
+        />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/blue_200"
+        android:padding="@dimen/_7sdp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@color/blue_200"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+</LinearLayout>

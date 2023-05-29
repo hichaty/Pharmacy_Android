@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <TextView
+        android:id="@+id/tv_order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/ordered_on_11_28_2021"
+        android:textColor="@color/grey_950"
+        android:textSize="@dimen/_12sdp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_my_order_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_order_date" />
+
+</RelativeLayout>

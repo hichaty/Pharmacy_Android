@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingsActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_terms_of_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/profile_card"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Terms of Use"
+            android:textColor="@color/grey_950"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_terms_of_use"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:background="@drawable/profile_card"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Faq's"
+            android:textColor="@color/grey_950"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_faq"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:background="@drawable/profile_card"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Privacy Policy"
+            android:textColor="@color/grey_950"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

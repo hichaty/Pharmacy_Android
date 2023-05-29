@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EnjoeePharmacy</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="faq">Faq</string>
+    <string name="rate_the_app">Rate the App</string>
+    <string name="title_activity_bottom_bar">BottomBarActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="alert">Alert</string>
+    <string name="prescription">Prescription</string>
+    <string name="my_order">My Order</string>
+    <string name="profile">Profile</string>
+    <string name="why_should_wait_in_queue_place_your_order_and_get_your_delivery_in">Why should wait in Queue?\nPlace your order and Get your\nDelivery in</string>
+    <string name="mfg_micro_lab_ltd">MFG \nMicro Lab Ltd</string>
+    <string name="medical_description">Medical Description</string>
+    <string name="ordered_on_11_28_2021">Ordered on 11-28-2021</string>
+    <string name="minimum_order_should_be_rs_100_delivery_free_with_in_5km_then_after_per_km_rs_2_applicable_once_order_placed_then_no_refundable">*Minimum Order should be Rs.100\n*Delivery free with in 5km then after Per KM Rs.2 applicable\n*Once order placed then no Refundable</string>
+    <string name="place_order_amp_pay"><![CDATA[Place Order & Pay]]></string>
+    <string name="welcome_to_in_touch_pharmacy">Welcome to \niN-Touch Pharmacy</string>
+    <string name="near_store">Near Store</string>
+    <string name="rs_25_35_mrp_rs_31_70_inclusive_all_taxes">Rs.25.35 | Mrp Rs.31.70\n(Inclusive all taxes)</string>
+    <string name="upload_prescription">Upload Prescription</string>
+</resources>
